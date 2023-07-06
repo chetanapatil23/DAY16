@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Button - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).on( "click", function( event ) {
+      event.preventDefault();
+    } );
+  } );function myFunction() {
+  location.replace("https://web.whatsapp.com/")
+}
+function myFunction1() {
+  location.replace("https://www.bing.com/images/search?view=detailV2&ccid=qeIP%2fj0z&id=EE23DC2D11E249C85B817779702561FAB9B6268A&thid=OIP.qeIP_j0zxvYvEGlaRzKZfAHaGE&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a9e20ffe3d33c6f62f10695a4732997c%3frik%3diia2ufphJXB5dw%26riu%3dhttp%253a%252f%252fichef.bbci.co.uk%252fnews%252f976%252fcpsprodpb%252f1993%252fproduction%252f_88174560_2.jpg%26ehk%3dQJSCKs7UuXC%252bOhvccYbwoEX8ZVBgW9%252byxON2X9p9ST8%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=800&expw=976&q=instagram+login&simid=608019176088276113&FORM=IRPRST&ck=87E3B9928FCAF0F55A630D018BB25DA1&selectedIndex=0&ajaxhist=0&ajaxserp=0")
+}
+function myFunction2() {
+  location.replace("https://www.bing.com/images/search?view=detailV2&ccid=k%2bcMsn5d&id=564BDFA94E9685D6516DADEAE0228B03D876221E&thid=OIP.k-cMsn5dpPfxh8a7IWyFDgHaEK&mediaurl=https%3a%2f%2fwww.lifewire.com%2fthmb%2fou1VDncsQw1of9gXhEdiqiP4iSo%3d%2f1920x1080%2ffilters%3ano_upscale()%3amax_bytes(150000)%3astrip_icc()%2fspotify-login-5b6ad801c9e77c005036ae07.jpg&exph=1080&expw=1920&q=spotify+login&simid=608018501779727331&FORM=IRPRST&ck=B6D99D0C77723DF09247B4D39A291AB6&selectedIndex=0&ajaxhist=0&ajaxserp=0")
+}
+
+function myFunction3() {
+  location.replace("https://www.w3schools.com/java/default.asp")
+}
+
+function myFunction4() {
+  location.replace("https://www.w3schools.com/python/default.asp")
+}
+
+function myFunction5() {
+  location.replace("https://www.w3schools.com/php/")
+}
+  </script>
+</head>
+<body>
+<div class="widget">
+  <h1>Social Media</h1>
+  <button onclick="myFunction()">WhatsApp</button>
+  <button onclick="myFunction1()">Instagram</button>
+  <button onclick="myFunction2()">Spotify</button>
+</div>
+<h1>Study Malerial</h1>
+<button class="ui-button ui-widget ui-corner-all" onclick="myFunction3()">JAVA</button>
+<button class="ui-button ui-widget ui-corner-all" onclick="myFunction4()">PYTHON</button>
+<button class="ui-button ui-widget ui-corner-all" onclick="myFunction5()">PHP</button>
+</body>
+</html>
